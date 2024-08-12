@@ -5,7 +5,7 @@ import Chat from './pages/chat';
 import io from 'socket.io-client'
 import { useState } from 'react';
 
-const socket = io.connect('http://localhost:4000') 
+const socket = io.connect('https://chat-room-vv0z.onrender.com') 
 
 function App() {
   const [username, setUserName] = useState('');
